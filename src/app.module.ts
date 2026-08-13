@@ -8,7 +8,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
     // eslint-disable-next-line @typescript-eslint/no-unsafe-call
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'mysql',
       port: 3306,
       username: 'admin',
       password: 'root',
